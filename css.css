@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #81b9d8;
+}
+
+.nav{
+    display: flex;
+    background-color: #5cabd6;
+    color: white;
+}
+.logo{
+    width: 25%;
+    padding-left: 50px;
+}
+.menu > ul > li{
+    display: inline;
+    padding-left: 30px;
+    text-align: left;
+    padding: 20px;  
+}
+.menu > ul > li> a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+}
+
+.menu > ul > li> a:hover{
+  background-color: white;
+  color: slategray;
+  border-radius: 2px;
+}
+
+
+.main{
+  text-align: center;
+}
+.omnie, .jezyk, .cele, .umiej, .dod{
+  margin-bottom: 100px;
+}
+.omnie{
+  color: rgb(0, 0, 0);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.omnie > p{
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.jezyk > ul > li{
+  margin-left: 40%;
+}
+.jezyk > ul > li::marker{
+  color: #81b9d8;
+}
+
+.cele>ul>li::marker{
+  color: #81b9d8;
+}
+.umiej>i{
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+
+.footer>.op, .kontakt{
+  background-color: #5cabd6;
+  height: 100px;
+  padding-left: 40%;
+
+}
+.footer>.kontakt{
+  padding-left: 45%;
+  padding-bottom: 0px;
+}
+.footer>.kontakt>a>i{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+
+.footer>.kontakt>a>:hover{
+  color: rgb(231, 231, 231);
+}
+
+
+
+
+
+
+.label, .progress-bar, .progress-block  {
+    float: left;
+    border-radius: 3px;
+  }
+  .label {
+    margin-right: 50px;
+  }
+  .progress-block {
+    width: 12px;
+    height: 12px;
+    margin: 2px 1px;
+    background-color: #E6E6E6;
+  }
+  .progress-block.active {
+    background-color: #0436b5;
+  }
